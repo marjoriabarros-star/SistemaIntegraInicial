@@ -8,6 +8,7 @@ package telas;
  *
  * @author Marjori Barros
  */
+<<<<<<< HEAD
 
 import java.awt.Component;
 import java.awt.Container;
@@ -27,10 +28,14 @@ public class TelaCadastroUsuario extends javax.swing.JFrame {
     
     private String tipoUsuario;
     
+=======
+public class TelaCadastroUsuario extends javax.swing.JFrame {
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 
     /**
      * Creates new form TelaCadastroUsuario
      */
+<<<<<<< HEAD
    public TelaCadastroUsuario() {
     initComponents(); 
     setLocationRelativeTo(null);
@@ -264,6 +269,12 @@ private void cadastroUsuario() {
     return -1; // Retorna -1 se não encontrou
 }
 
+=======
+    public TelaCadastroUsuario() {
+        initComponents();
+    }
+
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -279,6 +290,7 @@ private void cadastroUsuario() {
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
+<<<<<<< HEAD
         txtNomeCad = new javax.swing.JTextField();
         txtEmailCad = new javax.swing.JTextField();
         btnCadastrarUser = new javax.swing.JButton();
@@ -290,6 +302,17 @@ private void cadastroUsuario() {
         btnVoltarCadUsu = new javax.swing.JButton();
         jLabel8 = new javax.swing.JLabel();
         txtSenha = new javax.swing.JTextField();
+=======
+        txtID = new javax.swing.JTextField();
+        txtNomeCad = new javax.swing.JTextField();
+        txtEmailCad = new javax.swing.JTextField();
+        txtCargoCad = new javax.swing.JTextField();
+        txtAcoesCad = new javax.swing.JTextField();
+        btnCadastrarUser = new javax.swing.JButton();
+        btnLimparCadUser = new javax.swing.JButton();
+        btnVoltarCadUser = new javax.swing.JButton();
+        jLabel7 = new javax.swing.JLabel();
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -304,12 +327,23 @@ private void cadastroUsuario() {
 
         jLabel5.setText("Cargo:");
 
+<<<<<<< HEAD
         jLabel6.setText("Setor:");
+=======
+        jLabel6.setText("Ações:");
+
+        txtID.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtIDActionPerformed(evt);
+            }
+        });
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 
         btnCadastrarUser.setText("Cadastrar");
 
         btnLimparCadUser.setText("Limpar");
 
+<<<<<<< HEAD
         jLabel7.setText("Bem-vindo(a), [Usuário]! ");
 
         cbCargo.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecionar", "Direção ", "Gerência ", "Supervisão ", "Analistas ", "Assistentes ", "Auxiliares ", "Atendentes " }));
@@ -324,6 +358,16 @@ private void cadastroUsuario() {
         });
 
         jLabel8.setText("Senha:");
+=======
+        btnVoltarCadUser.setText("Voltar");
+        btnVoltarCadUser.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnVoltarCadUserActionPerformed(evt);
+            }
+        });
+
+        jLabel7.setText("Bem-vindo(a), [Usuário]! ");
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -340,6 +384,7 @@ private void cadastroUsuario() {
                                 .addGap(134, 134, 134)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(layout.createSequentialGroup()
+<<<<<<< HEAD
                                         .addComponent(btnCadastrarUser)
                                         .addGap(42, 42, 42)
                                         .addComponent(btnLimparCadUser)
@@ -365,6 +410,29 @@ private void cadastroUsuario() {
                                                 .addComponent(cbSetor, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                                 .addComponent(txtID, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)))))))
                         .addGap(0, 148, Short.MAX_VALUE))
+=======
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                            .addComponent(jLabel5)
+                                            .addComponent(jLabel6)
+                                            .addComponent(jLabel4)
+                                            .addComponent(jLabel3)
+                                            .addComponent(jLabel2))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(txtAcoesCad, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(txtCargoCad, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                .addComponent(txtEmailCad, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addComponent(txtNomeCad, javax.swing.GroupLayout.PREFERRED_SIZE, 162, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addComponent(txtID, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(btnCadastrarUser)
+                                        .addGap(42, 42, 42)
+                                        .addComponent(btnLimparCadUser)
+                                        .addGap(39, 39, 39)
+                                        .addComponent(btnVoltarCadUser)))))
+                        .addGap(0, 155, Short.MAX_VALUE))
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(jLabel7)))
@@ -394,6 +462,7 @@ private void cadastroUsuario() {
                             .addComponent(jLabel4))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+<<<<<<< HEAD
                             .addComponent(jLabel5)
                             .addComponent(cbCargo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(28, 28, 28))
@@ -410,6 +479,19 @@ private void cadastroUsuario() {
                         .addComponent(btnVoltarCadUsu))
                     .addComponent(btnCadastrarUser))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 65, Short.MAX_VALUE)
+=======
+                            .addComponent(txtCargoCad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel5))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(txtAcoesCad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel6, javax.swing.GroupLayout.Alignment.TRAILING))
+                .addGap(62, 62, 62)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btnLimparCadUser)
+                    .addComponent(btnVoltarCadUser)
+                    .addComponent(btnCadastrarUser))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 56, Short.MAX_VALUE)
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
                 .addComponent(jLabel7)
                 .addContainerGap())
         );
@@ -417,6 +499,7 @@ private void cadastroUsuario() {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+<<<<<<< HEAD
     private void btnVoltarCadUsuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVoltarCadUsuActionPerformed
       // Navegação segura mantendo as permissões do usuário
     if (tipoUsuario == null) {
@@ -475,6 +558,17 @@ private void cadastroUsuario() {
     cbCargo.setSelectedIndex(0);
     cbSetor.setSelectedIndex(0);
 }
+=======
+    private void txtIDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtIDActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtIDActionPerformed
+
+    private void btnVoltarCadUserActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVoltarCadUserActionPerformed
+        new TelaUsuarios().setVisible(true); // Abre a tela de usuários
+        this.dispose(); // Fecha o dashboard
+    }//GEN-LAST:event_btnVoltarCadUserActionPerformed
+
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     /**
      * @param args the command line arguments
      */
@@ -501,7 +595,10 @@ private void cadastroUsuario() {
             java.util.logging.Logger.getLogger(TelaCadastroUsuario.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
+<<<<<<< HEAD
         
+=======
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
@@ -510,14 +607,21 @@ private void cadastroUsuario() {
             }
         });
     }
+<<<<<<< HEAD
     
+=======
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnCadastrarUser;
     private javax.swing.JButton btnLimparCadUser;
+<<<<<<< HEAD
     private javax.swing.JButton btnVoltarCadUsu;
     private javax.swing.JComboBox<String> cbCargo;
     private javax.swing.JComboBox<String> cbSetor;
+=======
+    private javax.swing.JButton btnVoltarCadUser;
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -525,6 +629,7 @@ private void cadastroUsuario() {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+<<<<<<< HEAD
     private javax.swing.JLabel jLabel8;
     private javax.swing.JTextField txtEmailCad;
     private javax.swing.JTextField txtID;
@@ -532,4 +637,12 @@ private void cadastroUsuario() {
     private javax.swing.JTextField txtSenha;
     // End of variables declaration//GEN-END:variables
 
+=======
+    private javax.swing.JTextField txtAcoesCad;
+    private javax.swing.JTextField txtCargoCad;
+    private javax.swing.JTextField txtEmailCad;
+    private javax.swing.JTextField txtID;
+    private javax.swing.JTextField txtNomeCad;
+    // End of variables declaration//GEN-END:variables
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 }

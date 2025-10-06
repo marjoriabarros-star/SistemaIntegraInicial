@@ -8,15 +8,19 @@ package telas;
  *
  * @author Marjori Barros
  */
+<<<<<<< HEAD
 import java.awt.Color;
 import java.awt.Font;
 import javax.swing.JOptionPane;
 
+=======
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 public class TelaUsuarios extends javax.swing.JFrame {
 
     /**
      * Creates new form TelaUsuarios
      */
+<<<<<<< HEAD
     private String tipoUsuario;
     
     public TelaUsuarios() {
@@ -55,6 +59,10 @@ public class TelaUsuarios extends javax.swing.JFrame {
         String tooltip = podeGerenciar ? "Acesso permitido" : "Acesso restrito para " + tipoUsuario;
         btnNovoUsuario.setToolTipText("Adicionar usuário - " + tooltip);
         btnBuscarUsuario.setToolTipText("Buscar usuários - Acesso permitido");
+=======
+    public TelaUsuarios() {
+        initComponents();
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     }
 
     /**
@@ -230,6 +238,7 @@ public class TelaUsuarios extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUsuarioActionPerformed
+<<<<<<< HEAD
     JOptionPane.showMessageDialog(this, "Você já está na tela de Usuários!");
     }//GEN-LAST:event_btnUsuarioActionPerformed
 
@@ -251,15 +260,50 @@ public class TelaUsuarios extends javax.swing.JFrame {
 
     private void btnDashboardActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDashboardActionPerformed
         new TelaDashboard(tipoUsuario).setVisible(true); // Abre a tela de dashboard
+=======
+        new TelaUsuarios().setVisible(true); // Abre a tela de usuários
+        this.dispose(); // Fecha o dashboard
+    }//GEN-LAST:event_btnUsuarioActionPerformed
+
+    private void btnNovoUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNovoUsuarioActionPerformed
+        // 1. Criar uma instância (um objeto) da tela de cadastro
+    TelaCadastroUsuario telaCadastro = new TelaCadastroUsuario();
+
+    // 2. Tornar essa nova tela visível para o usuário
+    telaCadastro.setVisible(true);
+
+    // 3. Fechar a tela atual de listagem
+      this.dispose();
+    }//GEN-LAST:event_btnNovoUsuarioActionPerformed
+
+    private void btnBuscarUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBuscarUsuarioActionPerformed
+        // 1. Criar uma instância (um objeto) da tela de cadastro
+    TelaUsuáriosCadastrados telaCadastro = new TelaUsuáriosCadastrados();
+
+    // 2. Tornar essa nova tela visível para o usuário
+    telaCadastro.setVisible(true);
+
+    // 3. Fechar a tela atual de listagem
+      this.dispose();
+    }//GEN-LAST:event_btnBuscarUsuarioActionPerformed
+
+    private void btnDashboardActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDashboardActionPerformed
+        new TelaDashboard().setVisible(true); // Abre a tela de dashboard
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
         this.dispose(); // Fecha o dashboard
     }//GEN-LAST:event_btnDashboardActionPerformed
 
     private void btnProcessosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProcessosActionPerformed
+<<<<<<< HEAD
         new TelaProcessos(tipoUsuario).setVisible(true); // Abre a tela de Processos
+=======
+        new TelaProcessos().setVisible(true); // Abre a tela de Processos
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
         this.dispose(); // Fecha o dashboard
     }//GEN-LAST:event_btnProcessosActionPerformed
 
     private void btnSairActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSairActionPerformed
+<<<<<<< HEAD
         int confirm = JOptionPane.showConfirmDialog(this, 
             "Deseja realmente sair do sistema?", "Confirmação", 
             JOptionPane.YES_NO_OPTION);
@@ -286,6 +330,17 @@ public class TelaUsuarios extends javax.swing.JFrame {
     btnUsuario.setFont(btnUsuario.getFont().deriveFont(Font.BOLD)); 
         
         }    
+=======
+        new TelaLogin().setVisible(true); // Abre a tela de Login
+        this.dispose(); // Fecha o dashboard
+    }//GEN-LAST:event_btnSairActionPerformed
+
+    private void btnManuaisActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnManuaisActionPerformed
+        new TelaManuais().setVisible(true); // Abre a tela de manuais
+        this.dispose(); // Fecha o dashboard
+    }//GEN-LAST:event_btnManuaisActionPerformed
+
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     /**
      * @param args the command line arguments
      */
@@ -333,6 +388,9 @@ public class TelaUsuarios extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 }

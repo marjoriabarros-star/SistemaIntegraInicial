@@ -8,6 +8,7 @@ package telas;
  *
  * @author Marjori Barros
  */
+<<<<<<< HEAD
 
 import java.awt.event.ActionEvent;
 import java.sql.Connection;
@@ -25,11 +26,16 @@ public class TelaCadastroDeProcessos extends javax.swing.JFrame {
     private String tipoUsuario;
     private int idProcessoEdicao = -1;
 
+=======
+public class TelaCadastroDeProcessos extends javax.swing.JFrame {
+
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     /**
      * Creates new form TelaCadastroDeProcessos
      */
     public TelaCadastroDeProcessos() {
         initComponents();
+<<<<<<< HEAD
         setLocationRelativeTo(null);
         this.tipoUsuario = "Visitante";
         configurarComponentes();
@@ -105,6 +111,9 @@ private void preencherCamposEdicao(int idProcesso, String descricao, String seto
     System.out.println("DEBUG: Texto definido para: " + jLabel5.getText());
     }
     
+=======
+    }
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -116,16 +125,28 @@ private void preencherCamposEdicao(int idProcesso, String descricao, String seto
     private void initComponents() {
 
         txtID = new javax.swing.JTextField();
+<<<<<<< HEAD
         JtxtArea = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
         btnCadastrarProcesso = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         btnLimparCadProcesso = new javax.swing.JButton();
+=======
+        txtNomeCad = new javax.swing.JTextField();
+        txtEmailCad = new javax.swing.JTextField();
+        jLabel1 = new javax.swing.JLabel();
+        btnCadastrarUser = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
+        btnLimparCadUser = new javax.swing.JButton();
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
         jLabel3 = new javax.swing.JLabel();
         btnVoltarCadProc = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
+<<<<<<< HEAD
         cbSetor = new javax.swing.JComboBox<>();
+=======
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(153, 51, 255));
@@ -139,6 +160,7 @@ private void preencherCamposEdicao(int idProcesso, String descricao, String seto
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel1.setText("Cadastro de Processos");
 
+<<<<<<< HEAD
         btnCadastrarProcesso.setText("Cadastrar");
         btnCadastrarProcesso.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -154,6 +176,13 @@ private void preencherCamposEdicao(int idProcesso, String descricao, String seto
                 btnLimparCadProcessoActionPerformed(evt);
             }
         });
+=======
+        btnCadastrarUser.setText("Cadastrar");
+
+        jLabel2.setText(" ID:");
+
+        btnLimparCadUser.setText("Limpar");
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 
         jLabel3.setText("Setor:");
 
@@ -168,8 +197,11 @@ private void preencherCamposEdicao(int idProcesso, String descricao, String seto
 
         jLabel5.setText("Bem-vindo(a), [Usuário]! ");
 
+<<<<<<< HEAD
         cbSetor.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecionar", "Fiscal", "Contábil", "RH", "Declarações", "Societário", "Financeiro", "TI", "Atendimento" }));
 
+=======
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -185,9 +217,15 @@ private void preencherCamposEdicao(int idProcesso, String descricao, String seto
                                 .addGap(96, 96, 96)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addGroup(layout.createSequentialGroup()
+<<<<<<< HEAD
                                         .addComponent(btnCadastrarProcesso)
                                         .addGap(37, 37, 37)
                                         .addComponent(btnLimparCadProcesso)
+=======
+                                        .addComponent(btnCadastrarUser)
+                                        .addGap(37, 37, 37)
+                                        .addComponent(btnLimparCadUser)
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
                                         .addGap(44, 44, 44)
                                         .addComponent(btnVoltarCadProc))
                                     .addGroup(layout.createSequentialGroup()
@@ -198,8 +236,13 @@ private void preencherCamposEdicao(int idProcesso, String descricao, String seto
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(txtID, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
+<<<<<<< HEAD
                                             .addComponent(JtxtArea, javax.swing.GroupLayout.PREFERRED_SIZE, 226, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(cbSetor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))))
+=======
+                                            .addComponent(txtNomeCad, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(txtEmailCad, javax.swing.GroupLayout.PREFERRED_SIZE, 226, javax.swing.GroupLayout.PREFERRED_SIZE))))))
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
                         .addGap(0, 145, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
@@ -217,6 +260,7 @@ private void preencherCamposEdicao(int idProcesso, String descricao, String seto
                     .addComponent(jLabel2))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+<<<<<<< HEAD
                     .addComponent(jLabel3)
                     .addComponent(cbSetor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(9, 9, 9)
@@ -228,6 +272,19 @@ private void preencherCamposEdicao(int idProcesso, String descricao, String seto
                     .addComponent(btnVoltarCadProc)
                     .addComponent(btnLimparCadProcesso)
                     .addComponent(btnCadastrarProcesso))
+=======
+                    .addComponent(txtNomeCad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel3))
+                .addGap(9, 9, 9)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel4)
+                    .addComponent(txtEmailCad, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 62, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnVoltarCadProc)
+                    .addComponent(btnLimparCadUser)
+                    .addComponent(btnCadastrarUser))
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
                 .addGap(11, 11, 11)
                 .addComponent(jLabel5)
                 .addContainerGap())
@@ -241,6 +298,7 @@ private void preencherCamposEdicao(int idProcesso, String descricao, String seto
     }//GEN-LAST:event_txtIDActionPerformed
 
     private void btnVoltarCadProcActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVoltarCadProcActionPerformed
+<<<<<<< HEAD
         new TelaProcessos(tipoUsuario).setVisible(true);  // Abre a tela de usuários
         this.dispose(); // Fecha o dashboard
     }//GEN-LAST:event_btnVoltarCadProcActionPerformed
@@ -388,6 +446,12 @@ private int obterIdSetor(String nomeSetor) {
     
     cbSetor.requestFocus();
     }
+=======
+        new TelaProcessos().setVisible(true); // Abre a tela de usuários
+        this.dispose(); // Fecha o dashboard
+    }//GEN-LAST:event_btnVoltarCadProcActionPerformed
+
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     /**
      * @param args the command line arguments
      */
@@ -424,18 +488,31 @@ private int obterIdSetor(String nomeSetor) {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+<<<<<<< HEAD
     private javax.swing.JTextField JtxtArea;
     private javax.swing.JButton btnCadastrarProcesso;
     private javax.swing.JButton btnLimparCadProcesso;
     private javax.swing.JButton btnVoltarCadProc;
     private javax.swing.JComboBox<String> cbSetor;
+=======
+    private javax.swing.JButton btnCadastrarUser;
+    private javax.swing.JButton btnLimparCadUser;
+    private javax.swing.JButton btnVoltarCadProc;
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+<<<<<<< HEAD
     private javax.swing.JTextField txtID;
     // End of variables declaration//GEN-END:variables
 
 
+=======
+    private javax.swing.JTextField txtEmailCad;
+    private javax.swing.JTextField txtID;
+    private javax.swing.JTextField txtNomeCad;
+    // End of variables declaration//GEN-END:variables
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 }

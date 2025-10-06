@@ -37,7 +37,11 @@
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
+<<<<<<< HEAD
                               <Component id="cbSetor" min="-2" max="-2" attributes="0"/>
+=======
+                              <Component id="txtNomeCad" min="-2" pref="128" max="-2" attributes="0"/>
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
                           </Group>
                       </Group>
                   </Group>
@@ -47,9 +51,15 @@
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+<<<<<<< HEAD
                       <Component id="btnCadastrarManual" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
                       <Component id="btnLimparCadManuais" min="-2" max="-2" attributes="0"/>
+=======
+                      <Component id="btnCadastrarUser" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                      <Component id="btnLimparCadUser" min="-2" max="-2" attributes="0"/>
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
                       <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
                       <Component id="btnVoltarCadMan" min="-2" max="-2" attributes="0"/>
                   </Group>
@@ -88,7 +98,11 @@
               <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                   <Component id="cbSetor" alignment="3" min="-2" max="-2" attributes="0"/>
+=======
+                  <Component id="txtNomeCad" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
               </Group>
               <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -103,9 +117,15 @@
               </Group>
               <EmptySpace pref="73" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
+<<<<<<< HEAD
                   <Component id="btnCadastrarManual" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="btnVoltarCadMan" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="btnLimparCadManuais" alignment="3" min="-2" max="-2" attributes="0"/>
+=======
+                  <Component id="btnCadastrarUser" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnLimparCadUser" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnVoltarCadMan" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
               </Group>
               <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
               <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
@@ -115,6 +135,7 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
+<<<<<<< HEAD
     <Component class="javax.swing.JButton" name="btnCadastrarManual">
       <Properties>
         <Property name="text" type="java.lang.String" value="Cadastrar"/>
@@ -122,12 +143,26 @@
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCadastrarManualActionPerformed"/>
       </Events>
+=======
+    <Component class="javax.swing.JButton" name="btnCadastrarUser">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cadastrar"/>
+      </Properties>
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
         <Property name="text" type="java.lang.String" value=" ID:"/>
       </Properties>
     </Component>
+<<<<<<< HEAD
+=======
+    <Component class="javax.swing.JButton" name="btnLimparCadUser">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Limpar"/>
+      </Properties>
+    </Component>
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
         <Property name="text" type="java.lang.String" value="Setor:"/>
@@ -146,6 +181,11 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtIDActionPerformed"/>
       </Events>
     </Component>
+<<<<<<< HEAD
+=======
+    <Component class="javax.swing.JTextField" name="txtNomeCad">
+    </Component>
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     <Component class="javax.swing.JTextField" name="txtCaminhoArquivo">
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
@@ -160,17 +200,23 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Selecionar arquivo"/>
       </Properties>
+<<<<<<< HEAD
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSelecionarArquivoActionPerformed"/>
       </Events>
+=======
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     </Component>
     <Component class="javax.swing.JButton" name="btnUpload">
       <Properties>
         <Property name="text" type="java.lang.String" value="Upload"/>
       </Properties>
+<<<<<<< HEAD
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnUploadActionPerformed"/>
       </Events>
+=======
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     </Component>
     <Component class="javax.swing.JLabel" name="lblStatus">
       <Properties>
@@ -184,6 +230,7 @@
         <Property name="text" type="java.lang.String" value="Bem-vindo(a), [Usu&#xe1;rio]! "/>
       </Properties>
     </Component>
+<<<<<<< HEAD
     <Component class="javax.swing.JComboBox" name="cbSetor">
       <Properties>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
@@ -213,5 +260,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLimparCadManuaisActionPerformed"/>
       </Events>
     </Component>
+=======
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
   </SubComponents>
 </Form>

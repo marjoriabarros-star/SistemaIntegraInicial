@@ -3,6 +3,12 @@
 <Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
+<<<<<<< HEAD
+=======
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[600, 400]"/>
+    </Property>
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
@@ -31,6 +37,7 @@
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+<<<<<<< HEAD
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Component id="jScrollPane1" alignment="1" max="32767" attributes="0"/>
                           <Group type="102" alignment="1" attributes="0">
@@ -57,16 +64,55 @@
                               <EmptySpace max="32767" attributes="0"/>
                               <Component id="btnVisualizarDoc" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+=======
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="btnExcluirSelecionado" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="btnAlterarSelecionado" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="192" max="-2" attributes="0"/>
+                                      <Component id="btnVoltarMan" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnCriarNovoManSelec" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="jScrollPane1" alignment="1" max="32767" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jTextField1" min="-2" pref="116" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jComboBox1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="btnFiltrar" min="-2" max="-2" attributes="0"/>
+                              </Group>
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
                           </Group>
                       </Group>
                   </Group>
               </Group>
+<<<<<<< HEAD
               <EmptySpace pref="62" max="32767" attributes="0"/>
+=======
+              <EmptySpace pref="66" max="32767" attributes="0"/>
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
           </Group>
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
               <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
               <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+=======
+              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
           </Group>
       </Group>
     </DimensionLayout>
@@ -88,6 +134,7 @@
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="btnExcluirSelecionado" alignment="3" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                   <Component id="btnBaixarSelecionado" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="btnVisualizarDoc" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
@@ -96,11 +143,22 @@
               <EmptySpace pref="27" max="32767" attributes="0"/>
               <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+=======
+                  <Component id="btnAlterarSelecionado" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnCriarNovoManSelec" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="btnVoltarMan" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="43" max="32767" attributes="0"/>
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
+<<<<<<< HEAD
     <Component class="javax.swing.JButton" name="btnBaixarSelecionado">
       <Properties>
         <Property name="text" type="java.lang.String" value="Baixar arquivo"/>
@@ -108,6 +166,12 @@
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBaixarSelecionadoActionPerformed"/>
       </Events>
+=======
+    <Component class="javax.swing.JButton" name="btnAlterarSelecionado">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Alterar selecionado"/>
+      </Properties>
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
@@ -121,12 +185,21 @@
         <Property name="text" type="java.lang.String" value="Filtrar"/>
       </Properties>
     </Component>
+<<<<<<< HEAD
     <Component class="javax.swing.JButton" name="btnVisualizarDoc">
       <Properties>
         <Property name="text" type="java.lang.String" value="Visualizar"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnVisualizarDocActionPerformed"/>
+=======
+    <Component class="javax.swing.JButton" name="btnCriarNovoManSelec">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Criar novo a partir de&#x2028;  selecionado"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCriarNovoManSelecActionPerformed"/>
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
       </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnVoltarMan">
@@ -141,9 +214,12 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Excluir selecionado"/>
       </Properties>
+<<<<<<< HEAD
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnExcluirSelecionadoActionPerformed"/>
       </Events>
+=======
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>

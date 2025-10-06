@@ -8,6 +8,7 @@ package telas;
  *
  * @author Marjori Barros
  */
+<<<<<<< HEAD
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -30,12 +31,16 @@ import java.nio.file.StandardCopyOption;
     public class TelaManuaisCadastrados extends javax.swing.JFrame {
     private String tipoUsuario;
     private Connection conexao;
+=======
+public class TelaManuaisCadastrados extends javax.swing.JFrame {
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 
     /**
      * Creates new form TelaManuaisCadastrados
      */
     public TelaManuaisCadastrados() {
         initComponents();
+<<<<<<< HEAD
         setLocationRelativeTo(null);
         this.tipoUsuario = "Visitante";
         configurarPermissoes("Visitante");
@@ -133,6 +138,10 @@ private void configurarPermissoes(String tipoUsuario) {
     
     
   
+=======
+    }
+
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -142,11 +151,19 @@ private void configurarPermissoes(String tipoUsuario) {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+<<<<<<< HEAD
         btnBaixarSelecionado = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
         btnFiltrar = new javax.swing.JButton();
         btnVisualizarDoc = new javax.swing.JButton();
+=======
+        btnAlterarSelecionado = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
+        jTextField1 = new javax.swing.JTextField();
+        btnFiltrar = new javax.swing.JButton();
+        btnCriarNovoManSelec = new javax.swing.JButton();
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
         btnVoltarMan = new javax.swing.JButton();
         btnExcluirSelecionado = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
@@ -157,6 +174,7 @@ private void configurarPermissoes(String tipoUsuario) {
         jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+<<<<<<< HEAD
 
         btnBaixarSelecionado.setText("Baixar arquivo");
         btnBaixarSelecionado.addActionListener(new java.awt.event.ActionListener() {
@@ -164,15 +182,27 @@ private void configurarPermissoes(String tipoUsuario) {
                 btnBaixarSelecionadoActionPerformed(evt);
             }
         });
+=======
+        setPreferredSize(new java.awt.Dimension(600, 400));
+
+        btnAlterarSelecionado.setText("Alterar selecionado");
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 
         jLabel2.setText("Filtro por Descrição:");
 
         btnFiltrar.setText("Filtrar");
 
+<<<<<<< HEAD
         btnVisualizarDoc.setText("Visualizar");
         btnVisualizarDoc.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnVisualizarDocActionPerformed(evt);
+=======
+        btnCriarNovoManSelec.setText("Criar novo a partir de   selecionado");
+        btnCriarNovoManSelec.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnCriarNovoManSelecActionPerformed(evt);
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
             }
         });
 
@@ -184,11 +214,14 @@ private void configurarPermissoes(String tipoUsuario) {
         });
 
         btnExcluirSelecionado.setText("Excluir selecionado");
+<<<<<<< HEAD
         btnExcluirSelecionado.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnExcluirSelecionadoActionPerformed(evt);
             }
         });
+=======
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 
         jLabel3.setText("Setor:");
 
@@ -228,6 +261,7 @@ private void configurarPermissoes(String tipoUsuario) {
                         .addComponent(jLabel1))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(51, 51, 51)
+<<<<<<< HEAD
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
@@ -256,6 +290,37 @@ private void configurarPermissoes(String tipoUsuario) {
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(jLabel4)
                 .addGap(24, 24, 24))
+=======
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(btnExcluirSelecionado)
+                                        .addGap(18, 18, 18)
+                                        .addComponent(btnAlterarSelecionado))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(192, 192, 192)
+                                        .addComponent(btnVoltarMan)))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnCriarNovoManSelec))
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addComponent(jScrollPane1)
+                                .addGroup(layout.createSequentialGroup()
+                                    .addComponent(jLabel2)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(24, 24, 24)
+                                    .addComponent(jLabel3)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(btnFiltrar))))))
+                .addContainerGap(66, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jLabel4)
+                .addGap(19, 19, 19))
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -274,6 +339,7 @@ private void configurarPermissoes(String tipoUsuario) {
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnExcluirSelecionado)
+<<<<<<< HEAD
                     .addComponent(btnBaixarSelecionado)
                     .addComponent(btnVisualizarDoc))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -281,11 +347,21 @@ private void configurarPermissoes(String tipoUsuario) {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 27, Short.MAX_VALUE)
                 .addComponent(jLabel4)
                 .addGap(31, 31, 31))
+=======
+                    .addComponent(btnAlterarSelecionado)
+                    .addComponent(btnCriarNovoManSelec))
+                .addGap(18, 18, 18)
+                .addComponent(btnVoltarMan)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel4)
+                .addContainerGap(43, Short.MAX_VALUE))
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+<<<<<<< HEAD
     private void btnVisualizarDocActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVisualizarDocActionPerformed
     visualizarDocumentoSelecionado();
     }//GEN-LAST:event_btnVisualizarDocActionPerformed
@@ -796,6 +872,22 @@ private void abrirPastaNoExplorador(File pasta) {
 }
 
 
+=======
+    private void btnCriarNovoManSelecActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCriarNovoManSelecActionPerformed
+        new TelaCadastroManuais().setVisible(true); // Abre a tela de cadastro de manuais
+        this.dispose(); // Fecha o dashboard
+    }//GEN-LAST:event_btnCriarNovoManSelecActionPerformed
+
+    private void btnVoltarManActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVoltarManActionPerformed
+        new TelaManuais().setVisible(true); // Abre a tela de manuais
+        this.dispose(); // Fecha o dashboard
+    }//GEN-LAST:event_btnVoltarManActionPerformed
+
+    private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox1ActionPerformed
+
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     /**
      * @param args the command line arguments
      */
@@ -832,10 +924,17 @@ private void abrirPastaNoExplorador(File pasta) {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+<<<<<<< HEAD
     private javax.swing.JButton btnBaixarSelecionado;
     private javax.swing.JButton btnExcluirSelecionado;
     private javax.swing.JButton btnFiltrar;
     private javax.swing.JButton btnVisualizarDoc;
+=======
+    private javax.swing.JButton btnAlterarSelecionado;
+    private javax.swing.JButton btnCriarNovoManSelec;
+    private javax.swing.JButton btnExcluirSelecionado;
+    private javax.swing.JButton btnFiltrar;
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     private javax.swing.JButton btnVoltarMan;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;

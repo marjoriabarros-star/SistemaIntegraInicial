@@ -7,10 +7,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-<<<<<<< HEAD
-import javax.swing.*;
-=======
->>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 
 /**
  *

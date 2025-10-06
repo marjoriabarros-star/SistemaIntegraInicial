@@ -8,6 +8,7 @@ package telas;
  *
  * @author Marjori Barros
  */
+<<<<<<< HEAD
 import java.awt.Color;
 import java.awt.Font;
 import java.sql.Connection;
@@ -20,11 +21,15 @@ import javax.swing.table.DefaultTableModel;
 
 public class TelaProcessos extends javax.swing.JFrame {
        private String tipoUsuario;
+=======
+public class TelaProcessos extends javax.swing.JFrame {
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 
     /**
      * Creates new form TelaProcessos
      */
     public TelaProcessos() {
+<<<<<<< HEAD
     initComponents();  
     setLocationRelativeTo(null);
     this.tipoUsuario = "Visitante";
@@ -49,6 +54,10 @@ public class TelaProcessos extends javax.swing.JFrame {
     System.out.println("DEBUG: Texto definido para: " + jLabel2.getText());
 }
 
+=======
+        initComponents();
+    }
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -223,6 +232,7 @@ public class TelaProcessos extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnBuscarProcessoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBuscarProcessoActionPerformed
+<<<<<<< HEAD
     new TelaProcessosCadastrados(tipoUsuario).setVisible(true);
     this.dispose();
     }//GEN-LAST:event_btnBuscarProcessoActionPerformed
@@ -318,6 +328,49 @@ public class TelaProcessos extends javax.swing.JFrame {
     }
 }
 
+=======
+        // 1. Criar uma instância (um objeto) da tela de cadastro
+        TelaProcessosCadastrados telaCadastro = new TelaProcessosCadastrados();
+
+        // 2. Tornar essa nova tela visível para o usuário
+        telaCadastro.setVisible(true);
+
+        // 3. Fechar a tela atual de listagem
+        this.dispose();
+    }//GEN-LAST:event_btnBuscarProcessoActionPerformed
+
+    private void btnNovoProcessoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNovoProcessoActionPerformed
+        // 1. Criar uma instância (um objeto) da tela de cadastro
+        TelaCadastroDeProcessos telaCadastro = new TelaCadastroDeProcessos();
+
+        // 2. Tornar essa nova tela visível para o usuário
+        telaCadastro.setVisible(true);
+
+        // 3. Fechar a tela atual de listagem
+        this.dispose();
+    }//GEN-LAST:event_btnNovoProcessoActionPerformed
+
+    private void btnDashboardActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDashboardActionPerformed
+        new TelaDashboard().setVisible(true); // Abre a tela de dashboard
+        this.dispose(); // Fecha o dashboard
+    }//GEN-LAST:event_btnDashboardActionPerformed
+
+    private void btnUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUsuarioActionPerformed
+        new TelaUsuarios().setVisible(true); // Abre a tela de usuários
+        this.dispose(); // Fecha o dashboard
+    }//GEN-LAST:event_btnUsuarioActionPerformed
+
+    private void btnSairActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSairActionPerformed
+        new TelaLogin().setVisible(true); // Volta para a tela de login
+        this.dispose(); // Fecha o dashboard
+    }//GEN-LAST:event_btnSairActionPerformed
+
+    private void btnManuaisActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnManuaisActionPerformed
+            new TelaManuais().setVisible(true); // Vai pra Tela de Manuais
+        this.dispose(); // Fecha o dashboard
+    }//GEN-LAST:event_btnManuaisActionPerformed
+
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     /**
      * @param args the command line arguments
      */
@@ -365,6 +418,9 @@ public class TelaProcessos extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 }

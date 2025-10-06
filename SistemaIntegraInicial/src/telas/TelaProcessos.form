@@ -36,6 +36,10 @@
                               <Component id="btnNovoProcesso" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
+<<<<<<< HEAD
+=======
+                              <EmptySpace pref="42" max="-2" attributes="0"/>
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
                               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
                           </Group>

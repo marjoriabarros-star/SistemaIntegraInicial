@@ -38,9 +38,15 @@
                               <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="1" attributes="0">
                                   <Group type="102" alignment="1" attributes="0">
+<<<<<<< HEAD
                                       <Component id="btnCadastrarProcesso" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
                                       <Component id="btnLimparCadProcesso" min="-2" max="-2" attributes="0"/>
+=======
+                                      <Component id="btnCadastrarUser" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                                      <Component id="btnLimparCadUser" min="-2" max="-2" attributes="0"/>
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
                                       <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
                                       <Component id="btnVoltarCadProc" min="-2" max="-2" attributes="0"/>
                                   </Group>
@@ -53,8 +59,13 @@
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Component id="txtID" min="-2" pref="56" max="-2" attributes="0"/>
+<<<<<<< HEAD
                                           <Component id="JtxtArea" min="-2" pref="226" max="-2" attributes="0"/>
                                           <Component id="cbSetor" alignment="0" min="-2" max="-2" attributes="0"/>
+=======
+                                          <Component id="txtNomeCad" min="-2" pref="128" max="-2" attributes="0"/>
+                                          <Component id="txtEmailCad" min="-2" pref="226" max="-2" attributes="0"/>
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
                                       </Group>
                                   </Group>
                               </Group>
@@ -83,19 +94,33 @@
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
+<<<<<<< HEAD
                   <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="cbSetor" alignment="3" min="-2" max="-2" attributes="0"/>
+=======
+                  <Component id="txtNomeCad" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
               </Group>
               <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                   <Component id="JtxtArea" min="-2" pref="141" max="-2" attributes="0"/>
+=======
+                  <Component id="txtEmailCad" min="-2" pref="141" max="-2" attributes="0"/>
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
               </Group>
               <EmptySpace pref="62" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="btnVoltarCadProc" alignment="3" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                   <Component id="btnLimparCadProcesso" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="btnCadastrarProcesso" alignment="3" min="-2" max="-2" attributes="0"/>
+=======
+                  <Component id="btnLimparCadUser" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnCadastrarUser" alignment="3" min="-2" max="-2" attributes="0"/>
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
               </Group>
               <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
               <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
@@ -110,7 +135,13 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtIDActionPerformed"/>
       </Events>
     </Component>
+<<<<<<< HEAD
     <Component class="javax.swing.JTextField" name="JtxtArea">
+=======
+    <Component class="javax.swing.JTextField" name="txtNomeCad">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtEmailCad">
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
@@ -120,6 +151,7 @@
         <Property name="text" type="java.lang.String" value="Cadastro de Processos"/>
       </Properties>
     </Component>
+<<<<<<< HEAD
     <Component class="javax.swing.JButton" name="btnCadastrarProcesso">
       <Properties>
         <Property name="text" type="java.lang.String" value="Cadastrar"/>
@@ -127,12 +159,19 @@
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCadastrarProcessoActionPerformed"/>
       </Events>
+=======
+    <Component class="javax.swing.JButton" name="btnCadastrarUser">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cadastrar"/>
+      </Properties>
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
         <Property name="text" type="java.lang.String" value=" ID:"/>
       </Properties>
     </Component>
+<<<<<<< HEAD
     <Component class="javax.swing.JButton" name="btnLimparCadProcesso">
       <Properties>
         <Property name="text" type="java.lang.String" value="Limpar"/>
@@ -140,6 +179,12 @@
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLimparCadProcessoActionPerformed"/>
       </Events>
+=======
+    <Component class="javax.swing.JButton" name="btnLimparCadUser">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Limpar"/>
+      </Properties>
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
@@ -164,6 +209,7 @@
         <Property name="text" type="java.lang.String" value="Bem-vindo(a), [Usu&#xe1;rio]! "/>
       </Properties>
     </Component>
+<<<<<<< HEAD
     <Component class="javax.swing.JComboBox" name="cbSetor">
       <Properties>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
@@ -184,5 +230,7 @@
         <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
       </AuxValues>
     </Component>
+=======
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
   </SubComponents>
 </Form>

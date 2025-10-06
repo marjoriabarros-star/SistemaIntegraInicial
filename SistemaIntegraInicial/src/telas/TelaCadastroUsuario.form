@@ -34,6 +34,7 @@
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="134" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
                                   <Group type="102" alignment="0" attributes="0">
                                       <Component id="btnCadastrarUser" min="-2" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
@@ -64,11 +65,42 @@
                                               <Component id="txtID" alignment="0" min="-2" pref="90" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
+=======
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="jLabel5" linkSize="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel6" linkSize="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel4" linkSize="1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel3" linkSize="1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabel2" linkSize="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="txtAcoesCad" min="-2" pref="165" max="-2" attributes="0"/>
+                                          <Component id="txtCargoCad" alignment="0" min="-2" pref="165" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="txtEmailCad" alignment="1" min="-2" pref="165" max="-2" attributes="0"/>
+                                              <Component id="txtNomeCad" min="-2" pref="162" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="txtID" min="-2" pref="56" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="btnCadastrarUser" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                                      <Component id="btnLimparCadUser" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                                      <Component id="btnVoltarCadUser" min="-2" max="-2" attributes="0"/>
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
                                   </Group>
                               </Group>
                           </Group>
                       </Group>
+<<<<<<< HEAD
                       <EmptySpace min="0" pref="148" max="32767" attributes="0"/>
+=======
+                      <EmptySpace min="0" pref="155" max="32767" attributes="0"/>
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
                   </Group>
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
@@ -103,6 +135,7 @@
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
+<<<<<<< HEAD
                           <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="cbCargo" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
@@ -126,6 +159,23 @@
                   <Component id="btnCadastrarUser" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="65" max="32767" attributes="0"/>
+=======
+                          <Component id="txtCargoCad" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="txtAcoesCad" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jLabel6" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="btnLimparCadUser" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnVoltarCadUser" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnCadastrarUser" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="56" max="32767" attributes="0"/>
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
               <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
@@ -163,13 +213,31 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel6">
       <Properties>
+<<<<<<< HEAD
         <Property name="text" type="java.lang.String" value="Setor:"/>
       </Properties>
     </Component>
+=======
+        <Property name="text" type="java.lang.String" value="A&#xe7;&#xf5;es:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtID">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtIDActionPerformed"/>
+      </Events>
+    </Component>
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     <Component class="javax.swing.JTextField" name="txtNomeCad">
     </Component>
     <Component class="javax.swing.JTextField" name="txtEmailCad">
     </Component>
+<<<<<<< HEAD
+=======
+    <Component class="javax.swing.JTextField" name="txtCargoCad">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAcoesCad">
+    </Component>
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     <Component class="javax.swing.JButton" name="btnCadastrarUser">
       <Properties>
         <Property name="text" type="java.lang.String" value="Cadastrar"/>
@@ -180,11 +248,23 @@
         <Property name="text" type="java.lang.String" value="Limpar"/>
       </Properties>
     </Component>
+<<<<<<< HEAD
+=======
+    <Component class="javax.swing.JButton" name="btnVoltarCadUser">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Voltar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnVoltarCadUserActionPerformed"/>
+      </Events>
+    </Component>
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     <Component class="javax.swing.JLabel" name="jLabel7">
       <Properties>
         <Property name="text" type="java.lang.String" value="Bem-vindo(a), [Usu&#xe1;rio]! "/>
       </Properties>
     </Component>
+<<<<<<< HEAD
     <Component class="javax.swing.JTextField" name="txtID">
     </Component>
     <Component class="javax.swing.JComboBox" name="cbCargo">
@@ -241,5 +321,7 @@
     </Component>
     <Component class="javax.swing.JTextField" name="txtSenha">
     </Component>
+=======
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
   </SubComponents>
 </Form>

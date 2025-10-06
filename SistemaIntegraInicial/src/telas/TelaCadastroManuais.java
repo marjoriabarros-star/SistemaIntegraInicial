@@ -8,6 +8,7 @@ package telas;
  *
  * @author Marjori Barros
  */
+<<<<<<< HEAD
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -31,11 +32,16 @@ public class TelaCadastroManuais extends javax.swing.JFrame {
     private static final long TAMANHO_MAXIMO_ARQUIVO = 50 * 1024 * 1024; // 50MB
     private static final String[] EXTENSOES_PERMITIDAS = {".pdf", ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".txt"};
     
+=======
+public class TelaCadastroManuais extends javax.swing.JFrame {
+
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     /**
      * Creates new form TelaCadastroManuais
      */
     public TelaCadastroManuais() {
         initComponents();
+<<<<<<< HEAD
         setLocationRelativeTo(null);
         this.tipoUsuario = "Visitante";
         configurarComponentes();
@@ -386,6 +392,10 @@ private void inicializarConexao() {
     }
     
         
+=======
+    }
+
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -395,11 +405,21 @@ private void inicializarConexao() {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+<<<<<<< HEAD
         btnCadastrarManual = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         btnVoltarCadMan = new javax.swing.JButton();
         txtID = new javax.swing.JTextField();
+=======
+        btnCadastrarUser = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
+        btnLimparCadUser = new javax.swing.JButton();
+        jLabel3 = new javax.swing.JLabel();
+        btnVoltarCadMan = new javax.swing.JButton();
+        txtID = new javax.swing.JTextField();
+        txtNomeCad = new javax.swing.JTextField();
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
         txtCaminhoArquivo = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
         btnSelecionarArquivo = new javax.swing.JButton();
@@ -407,6 +427,7 @@ private void inicializarConexao() {
         lblStatus = new javax.swing.JLabel();
         progressBar = new javax.swing.JProgressBar();
         jLabel4 = new javax.swing.JLabel();
+<<<<<<< HEAD
         cbSetor = new javax.swing.JComboBox<>();
         btnLimparCadManuais = new javax.swing.JButton();
 
@@ -421,6 +442,17 @@ private void inicializarConexao() {
 
         jLabel2.setText(" ID:");
 
+=======
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        btnCadastrarUser.setText("Cadastrar");
+
+        jLabel2.setText(" ID:");
+
+        btnLimparCadUser.setText("Limpar");
+
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
         jLabel3.setText("Setor:");
 
         btnVoltarCadMan.setText("Voltar");
@@ -440,6 +472,7 @@ private void inicializarConexao() {
         jLabel1.setText("Cadastro de Manuais");
 
         btnSelecionarArquivo.setText("Selecionar arquivo");
+<<<<<<< HEAD
         btnSelecionarArquivo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSelecionarArquivoActionPerformed(evt);
@@ -452,11 +485,16 @@ private void inicializarConexao() {
                 btnUploadActionPerformed(evt);
             }
         });
+=======
+
+        btnUpload.setText("Upload");
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 
         lblStatus.setText("Status Upload:");
 
         jLabel4.setText("Bem-vindo(a), [Usuário]! ");
 
+<<<<<<< HEAD
         cbSetor.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Selecionar", "Fiscal", "Contábil", "RH", "Declarações", "Societário", "Atendimento", "Financeiro", "TI", " " }));
 
         btnLimparCadManuais.setText("Limpar");
@@ -466,6 +504,8 @@ private void inicializarConexao() {
             }
         });
 
+=======
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -483,15 +523,25 @@ private void inicializarConexao() {
                             .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
                                 .addComponent(jLabel3)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+<<<<<<< HEAD
                                 .addComponent(cbSetor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+=======
+                                .addComponent(txtNomeCad, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE))))
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
                     .addGroup(layout.createSequentialGroup()
                         .addGap(96, 96, 96)
                         .addComponent(jLabel1))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(31, 31, 31)
+<<<<<<< HEAD
                         .addComponent(btnCadastrarManual)
                         .addGap(38, 38, 38)
                         .addComponent(btnLimparCadManuais)
+=======
+                        .addComponent(btnCadastrarUser)
+                        .addGap(41, 41, 41)
+                        .addComponent(btnLimparCadUser)
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
                         .addGap(43, 43, 43)
                         .addComponent(btnVoltarCadMan))
                     .addGroup(layout.createSequentialGroup()
@@ -522,7 +572,11 @@ private void inicializarConexao() {
                 .addGap(12, 12, 12)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
+<<<<<<< HEAD
                     .addComponent(cbSetor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+=======
+                    .addComponent(txtNomeCad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
                 .addGap(37, 37, 37)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnSelecionarArquivo)
@@ -534,9 +588,15 @@ private void inicializarConexao() {
                     .addComponent(progressBar, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 73, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+<<<<<<< HEAD
                     .addComponent(btnCadastrarManual)
                     .addComponent(btnVoltarCadMan)
                     .addComponent(btnLimparCadManuais))
+=======
+                    .addComponent(btnCadastrarUser)
+                    .addComponent(btnLimparCadUser)
+                    .addComponent(btnVoltarCadMan))
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
                 .addGap(38, 38, 38)
                 .addComponent(jLabel4)
                 .addContainerGap())
@@ -546,14 +606,20 @@ private void inicializarConexao() {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnVoltarCadManActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVoltarCadManActionPerformed
+<<<<<<< HEAD
         new TelaManuais(tipoUsuario).setVisible(true);
         this.dispose();
+=======
+        new TelaManuais().setVisible(true); // Abre a tela de manuais
+        this.dispose(); // Fecha o dashboard
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     }//GEN-LAST:event_btnVoltarCadManActionPerformed
 
     private void txtIDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtIDActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtIDActionPerformed
 
+<<<<<<< HEAD
     private void btnSelecionarArquivoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSelecionarArquivoActionPerformed
         selecionarArquivo();
     }//GEN-LAST:event_btnSelecionarArquivoActionPerformed
@@ -587,6 +653,8 @@ private void inicializarConexao() {
         }
         return true;
     }
+=======
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     /**
      * @param args the command line arguments
      */
@@ -623,12 +691,20 @@ private void inicializarConexao() {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+<<<<<<< HEAD
     private javax.swing.JButton btnCadastrarManual;
     private javax.swing.JButton btnLimparCadManuais;
     private javax.swing.JButton btnSelecionarArquivo;
     private javax.swing.JButton btnUpload;
     private javax.swing.JButton btnVoltarCadMan;
     private javax.swing.JComboBox<String> cbSetor;
+=======
+    private javax.swing.JButton btnCadastrarUser;
+    private javax.swing.JButton btnLimparCadUser;
+    private javax.swing.JButton btnSelecionarArquivo;
+    private javax.swing.JButton btnUpload;
+    private javax.swing.JButton btnVoltarCadMan;
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
@@ -637,8 +713,15 @@ private void inicializarConexao() {
     private javax.swing.JProgressBar progressBar;
     private javax.swing.JTextField txtCaminhoArquivo;
     private javax.swing.JTextField txtID;
+<<<<<<< HEAD
     // End of variables declaration//GEN-END:variables
 
     }
     
     
+=======
+    private javax.swing.JTextField txtNomeCad;
+    // End of variables declaration//GEN-END:variables
+
+}
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241

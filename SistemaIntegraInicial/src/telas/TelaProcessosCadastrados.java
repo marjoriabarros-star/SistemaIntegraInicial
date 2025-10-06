@@ -8,6 +8,7 @@ package telas;
  *
  * @author Marjori Barros
  */
+<<<<<<< HEAD
 import java.awt.event.ActionEvent;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -21,12 +22,16 @@ import javax.swing.table.DefaultTableModel;
 
     public class TelaProcessosCadastrados extends javax.swing.JFrame {
     private String tipoUsuario;
+=======
+public class TelaProcessosCadastrados extends javax.swing.JFrame {
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 
     /**
      * Creates new form TelaProcessosCadastrados
      */
     public TelaProcessosCadastrados() {
         initComponents();
+<<<<<<< HEAD
         setLocationRelativeTo(null);
         this.tipoUsuario = "Visitante";
         configurarPermissoes("Visitante");
@@ -126,6 +131,10 @@ import javax.swing.table.DefaultTableModel;
     jLabel4.setText("Bem-vindo(a), " + tipoUsuario + "!");
     System.out.println("DEBUG: Texto definido para: " + jLabel4.getText());
 }
+=======
+    }
+
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -152,11 +161,14 @@ import javax.swing.table.DefaultTableModel;
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         btnFiltrar.setText("Filtrar");
+<<<<<<< HEAD
         btnFiltrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnFiltrarActionPerformed(evt);
             }
         });
+=======
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 
         btnVoltarProc.setText("Voltar");
         btnVoltarProc.addActionListener(new java.awt.event.ActionListener() {
@@ -166,11 +178,14 @@ import javax.swing.table.DefaultTableModel;
         });
 
         btnExcluirSelecionado.setText("Excluir selecionado");
+<<<<<<< HEAD
         btnExcluirSelecionado.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnExcluirSelecionadoActionPerformed(evt);
             }
         });
+=======
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 
         jLabel3.setText("Setor:");
 
@@ -198,11 +213,14 @@ import javax.swing.table.DefaultTableModel;
         });
 
         btnAlterarSelecionado.setText("Alterar selecionado");
+<<<<<<< HEAD
         btnAlterarSelecionado.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAlterarSelecionadoActionPerformed(evt);
             }
         });
+=======
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 
         jLabel2.setText("Filtro por Descrição:");
 
@@ -285,6 +303,7 @@ import javax.swing.table.DefaultTableModel;
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnVoltarProcActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVoltarProcActionPerformed
+<<<<<<< HEAD
         new TelaProcessos(tipoUsuario).setVisible(true);
         this.dispose();
     }//GEN-LAST:event_btnVoltarProcActionPerformed
@@ -387,6 +406,21 @@ import javax.swing.table.DefaultTableModel;
             JOptionPane.showMessageDialog(this, "Erro ao excluir processo: " + e.getMessage());
         }
     }
+=======
+        new TelaProcessos().setVisible(true); // Abre a tela de usuários
+        this.dispose(); // Fecha o dashboard
+    }//GEN-LAST:event_btnVoltarProcActionPerformed
+
+    private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox1ActionPerformed
+
+    private void btnCriarNovoProcSelecActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCriarNovoProcSelecActionPerformed
+        new TelaCadastroDeProcessos().setVisible(true); // Abre a tela de usuários
+        this.dispose(); // Fecha o dashboard
+    }//GEN-LAST:event_btnCriarNovoProcSelecActionPerformed
+
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     /**
      * @param args the command line arguments
      */
@@ -437,6 +471,9 @@ import javax.swing.table.DefaultTableModel;
     private javax.swing.JTable jTable1;
     private javax.swing.JTextField jTextField1;
     // End of variables declaration//GEN-END:variables
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 }

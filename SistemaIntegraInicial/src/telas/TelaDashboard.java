@@ -8,18 +8,23 @@ package telas;
  *
  * @author Marjori Barros
  */
+<<<<<<< HEAD
 
 import javax.swing.JOptionPane;
 
 public class TelaDashboard extends javax.swing.JFrame {
     private String tipoUsuario;
     private String usuarioLogado;
+=======
+public class TelaDashboard extends javax.swing.JFrame {
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 
     /**
      * Creates new form TelaDashboard
      */
     public TelaDashboard() {
         initComponents();
+<<<<<<< HEAD
     setLocationRelativeTo(null);
     this.tipoUsuario = "Visitante"; 
     setTitle("Dashboard - Sistema Integra Inicial");
@@ -49,6 +54,10 @@ public class TelaDashboard extends javax.swing.JFrame {
     System.out.println("DEBUG: Texto definido para: " + jLabel1.getText());
 }
     
+=======
+    }
+
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -275,6 +284,7 @@ public class TelaDashboard extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUsuarioActionPerformed
+<<<<<<< HEAD
     if (btnUsuario.isEnabled()) {
         new TelaUsuarios(tipoUsuario).setVisible(true);
         this.dispose();
@@ -385,6 +395,27 @@ public class TelaDashboard extends javax.swing.JFrame {
             (btnManuais.isEnabled() ? "Acesso permitido" : "Acesso restrito"));
     }
     
+=======
+        new TelaUsuarios().setVisible(true); // Abre a tela de usuários
+    this.dispose(); // Fecha o dashboard
+    }//GEN-LAST:event_btnUsuarioActionPerformed
+
+    private void btnSairActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSairActionPerformed
+        new TelaLogin().setVisible(true); // Volta para a tela de login
+        this.dispose(); // Fecha o dashboard
+    }//GEN-LAST:event_btnSairActionPerformed
+
+    private void btnManuaisActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnManuaisActionPerformed
+        new TelaManuais().setVisible(true); // Volta para a tela de manuais
+        this.dispose(); // Fecha o dashboard
+    }//GEN-LAST:event_btnManuaisActionPerformed
+
+    private void btnProcessosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProcessosActionPerformed
+        new TelaProcessos().setVisible(true); // Volta para a tela de Processos
+        this.dispose(); // Fecha o dashboard        // TODO add your handling code here:
+    }//GEN-LAST:event_btnProcessosActionPerformed
+
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     /**
      * @param args the command line arguments
      */
@@ -436,5 +467,8 @@ public class TelaDashboard extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     // End of variables declaration//GEN-END:variables
+<<<<<<< HEAD
 
+=======
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 }

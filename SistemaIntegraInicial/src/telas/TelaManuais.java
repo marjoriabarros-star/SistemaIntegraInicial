@@ -8,18 +8,23 @@ package telas;
  *
  * @author Marjori Barros
  */
+<<<<<<< HEAD
 import java.awt.Color;
 import java.awt.Font;
 import javax.swing.JOptionPane;
 
 public class TelaManuais extends javax.swing.JFrame {
     private String tipoUsuario;
+=======
+public class TelaManuais extends javax.swing.JFrame {
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 
     /**
      * Creates new form TelaManuais
      */
     public TelaManuais() {
         initComponents();
+<<<<<<< HEAD
          setLocationRelativeTo(null);
         this.tipoUsuario = "Visitante";
         setTitle("Gerenciamento de Manuais - Visitante");
@@ -43,6 +48,9 @@ public class TelaManuais extends javax.swing.JFrame {
     }
 
 
+=======
+    }
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -216,16 +224,37 @@ public class TelaManuais extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnBuscarManuaisActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBuscarManuaisActionPerformed
+<<<<<<< HEAD
         new TelaManuaisCadastrados(tipoUsuario).setVisible(true);
+=======
+        // 1. Criar uma instância (um objeto) da tela de cadastro
+        TelaProcessosCadastrados telaCadastro = new TelaProcessosCadastrados();
+
+        // 2. Tornar essa nova tela visível para o usuário
+        telaCadastro.setVisible(true);
+
+        // 3. Fechar a tela atual de listagem
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
         this.dispose();
     }//GEN-LAST:event_btnBuscarManuaisActionPerformed
 
     private void btnNovoManualActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNovoManualActionPerformed
+<<<<<<< HEAD
         new TelaCadastroManuais (tipoUsuario).setVisible(true);
+=======
+        // 1. Criar uma instância (um objeto) da tela de cadastro
+        TelaCadastroDeProcessos telaCadastro = new TelaCadastroDeProcessos();
+
+        // 2. Tornar essa nova tela visível para o usuário
+        telaCadastro.setVisible(true);
+
+        // 3. Fechar a tela atual de listagem
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
         this.dispose();
     }//GEN-LAST:event_btnNovoManualActionPerformed
 
     private void btnDashboardActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDashboardActionPerformed
+<<<<<<< HEAD
         new TelaDashboard(tipoUsuario).setVisible(true);
         this.dispose();
     }//GEN-LAST:event_btnDashboardActionPerformed
@@ -277,12 +306,39 @@ public class TelaManuais extends javax.swing.JFrame {
     }
            
     
+=======
+        new TelaDashboard().setVisible(true); // Abre a tela de dashboard
+        this.dispose(); // Fecha o dashboard
+    }//GEN-LAST:event_btnDashboardActionPerformed
+
+    private void btnUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUsuarioActionPerformed
+        new TelaUsuarios().setVisible(true); // Abre a tela de usuários
+        this.dispose(); // Fecha o dashboard
+    }//GEN-LAST:event_btnUsuarioActionPerformed
+
+    private void btnSairActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSairActionPerformed
+        new TelaLogin().setVisible(true); // Volta para a tela de login
+        this.dispose(); // Fecha o dashboard
+    }//GEN-LAST:event_btnSairActionPerformed
+
+    private void btnProcessosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProcessosActionPerformed
+        new TelaProcessos().setVisible(true); // Volta para a tela de processos
+        this.dispose(); // Fecha o dashboard
+    }//GEN-LAST:event_btnProcessosActionPerformed
+
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
     /**
      * @param args the command line arguments
      */
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+<<<<<<< HEAD
+=======
+        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         */
+>>>>>>> 06c877f18a4b3a1dda1dab94ab8544262e3d8241
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
