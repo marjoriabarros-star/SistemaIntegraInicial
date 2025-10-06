@@ -10,6 +10,6 @@ Em uma era tão tecnológica, é comum que escritórios contábeis usem diversas
 ## Tecnologias Utilizadas
 - **Java**: Linguagem de programação principal
 - **MySQL**: Banco de dados para persistência das informações
--**Figma**: Design e prototipagem
+- **Figma**: Design e prototipagem
 - **Git**: Controle de versão
 - **GitHub**: Hospedagem do repositório
